@@ -11,6 +11,7 @@ McRamileux's React Portfolio
 - [Table of Contents](#table-of-contents)
 - [Technologies Used --- TO EDIT](#technologies-used-----to-edit)
 - [Installation --- TO EDIT](#installation-----to-edit)
+- [Usage --- TO EDIT](#usage-----to-edit)
 - [Screenshots --- TO EDIT](#screenshots-----to-edit)
 - [Links --- TO EDIT](#links-----to-edit)
 - [Contributions](#contributions)
@@ -29,11 +30,11 @@ McRamileux's React Portfolio
 - JSON
 
 ## Installation --- TO EDIT
-- Navigate to this [repository]
+- Navigate to this [repository](https://github.com/mcramileux/mcramileux-react-portfolio)
 - Open your terminal on your local machine and clone the repository.
-- Create a package.json to initialize the new node.js project
+- Create a react portfolio. Replace my-portfolio with your desired project name.
   ```md
-  npm init -y 
+  npx create-react-app my-portfolio
   ```
 - Install the express package
   ```md
@@ -52,13 +53,24 @@ McRamileux's React Portfolio
   ```md 
   npm start
   ```
-- Open Insomnia to test http://localhost:3001 with the following API endpoints (GET, PUT, DELETE, and POST).
+
+## Usage --- TO EDIT
+- For folder structure overview: Inside the newly created my-portfolio folder, you will find various files and folders. The main ones you'll be working with are:
+  ```md
+  - src: This is where your React code lives.
+  - public: This folder contains the public files like the index.html.
+  ```
+- Edit the index.html:
+  ```md
+  Open the public/index.html file and customize the <title> and other metadata according to your portfolio's name and description.
+  ```
+
 
 ## Screenshots --- TO EDIT
 
 
 ## Links --- TO EDIT
-- Github Repository: 
+- Github Repository: https://github.com/mcramileux/mcramileux-react-portfolio
 - Github Deployment:
 
 ## Contributions
@@ -73,6 +85,7 @@ This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 ## Reference
 - React's Mini Project solved folder as starter code
 - Mock up example as template
+- [chatGPT](https://chat.openai.com/c/778c407f-0bc5-4741-88e6-38b23fd93f2c) for folder structure for this SPA.
 
 ## Acknowledgements and Credits
 - Jacob Carver - weekly boot camp tutor
