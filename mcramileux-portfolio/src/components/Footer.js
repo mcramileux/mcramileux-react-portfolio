@@ -4,23 +4,30 @@
 //and their profile on a third platform (Stack Overflow, Twitter)
 
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGitHub, faLinkedin, faTwitter } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-dark text-light py-3">
       <div className="footerContainer">
         <div className="icons">
-          <a href="https://github.com/jjocelynn" target="blank">
-            <img src="./assets/images/GitHub-Logo.png" className="icon" />
-          </a>
-          <a href="https://placeHolderForLinkedInPage" target="blank">
-            <img src="./assets/images/linkedIn-logo.png" className="icon" />
-          </a>
-          <a href="https://placeHolderForStackOverflow" target="blank">
-            <img src="./assets/images/stack-overFlow.png" className="icon" />
-          </a>
+            <a href="https://github.com/mcramileux/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGitHub} />
+            </a>
+            <a href="https://www.linkedin.com/in/mcramileux/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="https://twitter.com/mcramileux" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faTwitter} />   
+            </a>
         </div>
-        • &copy; 2023 Robinson's Website Development •
+        <section>
+        <h4>Made with ❤️️ by Kristine</h4>
+        <p>
+           <h5 className="copyright-text">&copy; 2023 mcramileux. All rights reserved.</h5>
+        </p>
+        </section> 
       </div>
     </footer>
   );

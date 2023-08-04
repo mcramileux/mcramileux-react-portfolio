@@ -36,13 +36,13 @@ McRamileux's React Portfolio
   ```md
   npx create-react-app my-portfolio
   ```
-- Install the express package
+- Install fontawesome react icon styles
   ```md
-  npm i express
+  npm i --save @fortawesome/free-regular-svg-icons
   ```
-- Install the mongoose package
+- Install bootstrap
   ```md
-  npm i mongoose
+  npm i bootstrap@5.3.1
   ```
 - To check all package dependencies has been installed, run the following command in the terminal.
   ```md
@@ -86,6 +86,10 @@ This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 - React's Mini Project solved folder as starter code
 - Mock up example as template
 - [chatGPT](https://chat.openai.com/c/778c407f-0bc5-4741-88e6-38b23fd93f2c) for folder structure for this SPA.
+- [footer #1](https://github.com/jjocelynn/React-Portfolio) inspiration
+- [footer #2](https://github.com/robinsonfdossantos/Portfolio-REACT)inspiration
+- [fontawesome](https://fontawesome.com/docs/web/use-with/react/add-icons) adding react footer icons
+-  
 
 ## Acknowledgements and Credits
 - Jacob Carver - weekly boot camp tutor
