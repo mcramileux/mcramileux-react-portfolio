@@ -5,7 +5,7 @@
 
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGitHub, faLinkedin, faTwitter } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   return (
@@ -13,19 +13,19 @@ export default function Footer() {
       <div className="footerContainer">
         <div className="icons">
             <a href="https://github.com/mcramileux/" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faGitHub} />
+                {/* <FontAwesomeIcon icon={faGithub} /> */} Github
             </a>
             <a href="https://www.linkedin.com/in/mcramileux/" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} />
+                {/* <FontAwesomeIcon icon={faLinkedin} /> */} Linkedin
             </a>
             <a href="https://twitter.com/mcramileux" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faTwitter} />   
+                {/* <FontAwesomeIcon icon={faTwitter} />    */} Twitter
             </a>
         </div>
         <section>
-        <h4>Made with ❤️️ by Kristine</h4>
+        <h5>Made with ❤️️ by Kristine</h5>
         <p>
-           <h5 className="copyright-text">&copy; 2023 mcramileux. All rights reserved.</h5>
+           <h6 className="copyright-text">&copy; 2023 mcramileux. All rights reserved.</h6>
         </p>
         </section> 
       </div>

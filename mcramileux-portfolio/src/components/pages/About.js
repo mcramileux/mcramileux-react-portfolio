@@ -5,6 +5,9 @@
 //THEN I see a recent photo or avatar of the developer and a short bio about them
 
 import React from 'react';
+import avatar from './assets/images/pfp.jpeg';
+
+
 
 export default function About() {
   return (
