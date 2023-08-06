@@ -3,7 +3,7 @@
 .container-about {
     padding: 40px 0;
     width: 100%;
-    max-width: 1140px; /* Set your desired maximum width */
+    max-width: 1140px;
     margin: 0 auto;
   }
   
@@ -21,20 +21,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align:justify;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .avatar {
-    width: 150px; /* Adjust the width to your desired size */
-    height: 150px; /* Adjust the height to your desired size */
+    display: flex;
+    width: 150px; 
+    height: 150px; 
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
+  /* .paragraph-spacing {
+    margin-top: 20px; /* Add space above the paragraph 
+  }  */
+
+  p {
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-justify: none;
+  }
+
   @media (min-width: 768px) {
     .flex-container {
       flex-direction: row;
+      
     }
   }
   

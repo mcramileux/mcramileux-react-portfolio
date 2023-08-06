@@ -10,12 +10,13 @@ import authorAvatar from '../../assets/images/pfp.jpeg';
 
 export default function About() {
   return (
-    <div className="container-about">
+    <header className="bg-light text-dark py-3">
+      <div className="container-about text-center">
       <div className="row justify-content-center">
         <div className="col-md-10">
+          <h1>About Me</h1>
           <div className="flex-container">
             <img src={authorAvatar} alt="Author Avatar" className="avatar" />
-              <h1>About Me</h1>
               <p>
                 Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
                 Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -28,5 +29,6 @@ export default function About() {
         </div>
       </div>
     </div>
+  </header>
   );
 }
