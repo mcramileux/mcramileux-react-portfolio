@@ -1,21 +1,12 @@
-//TO EDIT NAV BAR
-//view the navigation titles
-
-// THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-// WHEN I click on a navigation title
-// THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-
 import React from 'react';
 import './NavTabs.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className='navbar navbar-expand-md'>
-      <div className="container-nav">
-      {/* <h1 href='#about' onClick={() => handlePageChange('About')}>
-        Kristine Ramilo
-      </h1> */}
-      <h1 className='author'>Kristine Ramilo</h1>
+    <nav className='bg-dark text-info py-2'>
+      <div className='navbar navbar-expand-md'>
+      <div className='container'>
+      <h1 className='author text-info'>Kristine Ramilo</h1>
       <div className='navbar-collapse'>
         <ul className='navbar-nav ms-auto'>
           <li className='nav-item'>
@@ -23,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href='#about'
               onClick={() => handlePageChange('About')}
               className={
-                currentPage === 'About' ? 'nav-link active' : 'nav-link'
+                currentPage === 'About' ? 'nav-link active text-info' : 'nav-link text-info'
               }
             >
               About
@@ -34,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href='#Portfolio'
               onClick={() => handlePageChange('Portfolio')}
               className={
-                currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
+                currentPage === 'Portfolio' ? 'nav-link active text-info' : 'nav-link text-info'
               }
             >
               Portfolio
@@ -45,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href='#contact'
               onClick={() => handlePageChange('Contact')}
               className={
-                currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
+                currentPage === 'Contact' ? 'nav-link active text-info' : 'nav-link text-info'
               }
             >
               Contact
@@ -56,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href='#resume'
               onClick={() => handlePageChange('Resume')}
               className={
-                currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
+                currentPage === 'Resume' ? 'nav-link active text-info' : 'nav-link text-info'
               }
             >
               Resume
@@ -65,8 +56,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </ul>
         </div>
       </div>
-      </nav>
-    
+      </div>
+    </nav>
   );
 }
 
