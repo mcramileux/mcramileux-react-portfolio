@@ -2,6 +2,7 @@
 //a contact form with fields for a name, an email address, and a message
 import React, { useState} from 'react';
 import '../../css/styles.css';
+// import '../../contact.css';
 
  function Contact() {
 

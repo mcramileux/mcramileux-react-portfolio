@@ -5,7 +5,7 @@
 //THEN I see a recent photo or avatar of the developer and a short bio about them
 
 import React from 'react';
-import '../../css/about.css';
+import './About.css';
 import authorAvatar from '../../assets/images/pfp.jpeg';
 
 export default function About() {
