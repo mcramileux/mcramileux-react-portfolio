@@ -4,9 +4,23 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume</h1>
-    <img src={require('../../assets/documents/kramilo-webdev-cv.png')} />
-    </div>
+    <section id="resume">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 section-header">
+            <h2>Resume</h2>
+            <h3>More about my credentials</h3>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="resume-download">
+              <a href="../../assets/documents/kramilo-cv.pdf" download="kramilo-resume.pdf">Download My Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }

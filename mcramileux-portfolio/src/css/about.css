@@ -1,0 +1,30 @@
+/* About.css */
+
+.container {
+    width: 100%;
+    max-width: 1140px; /* Set your desired maximum width */
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .col-md-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  @media (min-width: 768px) {
+    .flex-container {
+      flex-direction: row;
+    }
+  }
+  

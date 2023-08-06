@@ -33,29 +33,30 @@ import '../../css/styles.css';
 
   //TO EDIT all below
     return (
-        <div>
+      <section id="contact">
+        <h2>contact</h2>
           <form className="form">
             <input
+              value={name}
+              name="name"
+              onChange={handleNameChange}
+              type="name"
+              placeholder="name"
+            />
+             <input
               value={email}
               name="email"
               onChange={handleNameChange}
               onMessage={handleMessageChange}
               type="email"
-              placeholder="email"
-            />
-            <input
-              value={name}
-              name="name"
-              onChange={handleNameChange}
-              type="text"
-              placeholder="name"
+              placeholder="accountname@email.com"
             />
             <input
               value={message}
-              name="password"
+              name="message"
               onChange={handleNameChange}
-              type="password"
-              placeholder="password"
+              type="message"
+              placeholder="please type your message"
             />
             <button type="button" onClick={handleSubmit}>Submit</button>
           </form>
@@ -64,7 +65,7 @@ import '../../css/styles.css';
               <p className="error-text">{errorMessage}</p>
             </div>
           )} */}
-        </div>
+      </section>
       );
     }
 
