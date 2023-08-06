@@ -18,12 +18,11 @@ export default function About() {
           <div className="flex-container">
             <img src={authorAvatar} alt="Author Avatar" className="avatar" />
               <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+                I am Kristine, an aspiring web developer currently engaged in online studies at the University of Adelaide. As the culmination of my studies approaches at the end of this month, I am eager to expand my skill set and embrace new opportunities, with coding being a central focus of my learning journey.
+
+                My professional background spans a decade in the Hospitality Industry, reflecting my dedication and adaptability. Seeking a more balanced lifestyle, I am embarking on a career transition into the field of web development, where I am driven to leverage my newfound skills to make a meaningful impact.
+
+                Throughout my coding bootcamp experience, I have diligently undertaken a range of projects, which I am pleased to present in my portfolio. I invite you to explore these endeavors, and should you have any inquiries or wish to discuss my work further, I am readily available for communication.
               </p>
           </div>
         </div>
