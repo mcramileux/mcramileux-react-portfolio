@@ -1,9 +1,3 @@
-// TO EDIT
-// About Me title and section are selected by default
-
-//WHEN I am presented with the About Me section
-//THEN I see a recent photo or avatar of the developer and a short bio about them
-
 import React from 'react';
 import './About.css';
 import authorAvatar from '../../assets/images/pfp.jpeg';
@@ -12,11 +6,11 @@ export default function About() {
   return (
     <header className="bg-light text-dark py-3">
       <div className="container-about text-center">
-      <div className="row justify-content-center">
-        <div className="col-md-10">
-          <h1>About Me</h1>
-          <div className="flex-container">
-            <img src={authorAvatar} alt="Author Avatar" className="avatar" />
+        <div className="row justify-content-center">
+          <div className="col-md-10">
+            <h1>About Me</h1>
+            <div className="flex-container">
+              <img src={authorAvatar} alt="Author Avatar" className="avatar" />
               <p>
                 I am Kristine, an aspiring web developer currently engaged in online studies at the University of Adelaide. As the culmination of my studies approaches at the end of this month, I am eager to expand my skill set and embrace new opportunities, with coding being a central focus of my learning journey.
 
@@ -24,10 +18,10 @@ export default function About() {
 
                 Throughout my coding bootcamp experience, I have diligently undertaken a range of projects, which I am pleased to present in my portfolio. I invite you to explore these endeavors, and should you have any inquiries or wish to discuss my work further, I am readily available for communication.
               </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
   );
 }
