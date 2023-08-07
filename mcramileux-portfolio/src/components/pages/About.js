@@ -8,7 +8,7 @@ export default function About() {
       <div className="container-about text-center">
         <div className="row justify-content-center">
           <div className="col-md-10">
-            <h1>About Me</h1>
+            <h1 className='about-title'>About Me</h1>
             <div className="flex-container">
               <img src={authorAvatar} alt="Author Avatar" className="avatar" />
               <p>

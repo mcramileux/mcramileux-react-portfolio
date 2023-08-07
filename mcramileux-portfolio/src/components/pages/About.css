@@ -1,23 +1,30 @@
 /* About.css */
 
 .container-about {
-    padding: 40px 0;
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-  }
-  
-  .row {
+  padding: 40px 0;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about-title {
+  text-align: center;
+  margin-top: 0.4rem;
+  margin-bottom: 3rem;
+  font-size: 50px;
+}
+
+.row {
     display: flex;
     justify-content: center;
   }
   
-  .col-md-10 {
+.col-md-10 {
     flex: 0 0 83.333333%;
     max-width: 83.333333%;
   }
   
-  .flex-container {
+.flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +32,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  .avatar {
+.avatar {
     display: flex;
     width: 150px; 
     height: 150px; 
@@ -33,14 +40,14 @@
     margin-bottom: 10px;
   }
   
-  p {
+p {
     justify-content: center;
     margin-left: 40px;
     margin-right: 40px;
     text-justify: none;
   }
 
-  @media (min-width: 768px) {
+ @media (min-width: 768px) {
     .flex-container {
       flex-direction: row;
       

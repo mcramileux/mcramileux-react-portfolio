@@ -6,11 +6,15 @@
 import React from 'react';
 import './Portfolio.css';
 
+// import
+
 export default function Portfolio() {
   return (
     <div>
       <section id="Portfolio">
-      <h1>Portfolio</h1>
+        <div className='container-portfolio text-center'>
+          <h1 className='portfolio-title'>Portfolio</h1>
+        </div>
       </section>
     </div>
   );

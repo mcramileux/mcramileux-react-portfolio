@@ -38,7 +38,7 @@ McRamileux's React Portfolio
   ```
 - Install fontawesome react icon styles
   ```md
-  npm i --save @fortawesome/free-regular-svg-icons
+  npm i --save @fortawesome/free-brands-svg-icons
   ```
 - Install bootstrap
   ```md

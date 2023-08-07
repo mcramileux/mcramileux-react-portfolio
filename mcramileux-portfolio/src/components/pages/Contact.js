@@ -1,8 +1,8 @@
 //TO EDIT presented with the Contact section
 //a contact form with fields for a name, an email address, and a message
 import React, { useState} from 'react';
-import '../../css/styles.css';
-// import '../../contact.css';
+// import '../../css/styles.css';
+import './Contact.css';
 
  function Contact() {
 
@@ -31,41 +31,41 @@ import '../../css/styles.css';
     setMessage('');
     setEmail('');
   }
-
-  //TO EDIT all below
     return (
-      <section id="contact">
-        <h2>contact</h2>
-          <form className="form">
-            <input
+      <section id='contact'>
+        <div className='container-contact text-center'>
+          <h1 className='contact-title'>Contact Me</h1>
+            <form className='form'>
+              <input
               value={name}
-              name="name"
+              name='name'
               onChange={handleNameChange}
-              type="name"
-              placeholder="name"
-            />
-             <input
+              type='name'
+              placeholder='name'
+              />
+              <input
               value={email}
-              name="email"
+              name='email'
               onChange={handleNameChange}
               onMessage={handleMessageChange}
-              type="email"
-              placeholder="accountname@email.com"
-            />
-            <input
+              type='email'
+              placeholder='accountname@email.com'
+              />
+              <input
               value={message}
-              name="message"
+              name='message'
               onChange={handleNameChange}
-              type="message"
-              placeholder="please type your message"
-            />
-            <button type="button" onClick={handleSubmit}>Submit</button>
-          </form>
+              type='message'
+              placeholder='please type your message'
+              />
+              <button type='submit' onClick={handleSubmit}>Submit</button>
+            </form>
           {/* {errorMessage && (
             <div>
               <p className="error-text">{errorMessage}</p>
             </div>
           )} */}
+          </div>
       </section>
       );
     }

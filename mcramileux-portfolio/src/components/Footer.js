@@ -12,12 +12,9 @@ export default function Footer() {
             <div className='social-icons'>
               <a href='https://github.com/mcramileux/' target='_blank' className='text-info' rel='noopener noreferrer'>
                  <FontAwesomeIcon icon={faGithub} /> 
-                 Github
-                 
               </a>
               <a href='https://www.linkedin.com/in/mcramileux/' target='_blank' className='text-info' rel='noopener noreferrer'>
                     <FontAwesomeIcon icon={faLinkedin} /> 
-                    Linkedin
               </a>
             </div>
               <section>
