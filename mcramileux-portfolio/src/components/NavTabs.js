@@ -1,3 +1,11 @@
+// WHEN I click on a navigation title
+// THEN I am presented with the corresponding section below the navigation 
+// without the page reloading and that title is highlighted
+
+// author's name should be flex
+// navbar and name should be cornered
+
+
 import React from 'react';
 import './NavTabs.css';
 

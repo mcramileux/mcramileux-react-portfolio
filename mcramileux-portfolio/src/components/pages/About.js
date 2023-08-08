@@ -1,3 +1,8 @@
+// You’ll deploy this application to GitHub Pages. 
+// Follow the instructions in the Git Guide or consult the Create React App Docs on GitHub Pages to create a build that you can deploy.
+// Important: Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. 
+// Ensure this happens by using the gh-pages branch to host the deployed application's build.
+
 import React from 'react';
 import './About.css';
 import authorAvatar from '../../assets/images/pfp.jpeg';
