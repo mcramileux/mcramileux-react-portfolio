@@ -93,7 +93,7 @@ export default function Contact() {
                   <li>☎️ +61 0484 622 654</li>
                   <li>🇦🇺 Cairns, Queensland</li>
                 </ul>
-              <hr className="divider" />
+              <hr className="contact-divider" />
 
                 <div className="row gx-4 gx-lg-5 justify-content-center mb-5">
                   <div className="col-md-6 mx-auto">
