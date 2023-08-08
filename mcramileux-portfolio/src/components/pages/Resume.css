@@ -12,13 +12,10 @@
     font-size: 50px;
  }
 
-.resume-download {
-
-}
-
 .frontend-skills,
 .backend-skills,
 .deployment {
-        font-size: 20px;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
