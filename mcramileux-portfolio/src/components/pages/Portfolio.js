@@ -25,24 +25,61 @@
 
 // export default function Portfolio() {
 //   return (
-//     // <div>
-//     //   <section id="Portfolio">
-//     //     <div className='container-portfolio text-center'>
-//     //       <h1 className='portfolio-title'>Portfolio</h1>
-//     //     </div>
-//     //   </section>
-//     // </div>
-//     <div className='container-portfolio'>
-//     <h1 className="portfolio-title">Portfolio</h1>
-//     <div className="container">
-//       <div className="row">
-//         {[
-//           {
-//             title: "Thomas' Chess Blog",
-//             description: "CMS-Style Model View Controller Blog",
-//             imgSrc: ThomasChessBlog,
-//             deployedLink:
-//               "https://thomas-model-view-controller.herokuapp.com/",
-//             githubLink:
-//               "https://github.com/ThomasCalle/Thomas-Model-View-Controller-MVC-Tech-Blog",
-//           },
+//     <section id="Portfolio">
+//       <div className='container-portfolio text-center'>
+//         <h1 className='portfolio-title'>Portfolio</h1>
+//           <div className='container'>
+//             <div className='row'>
+//               {[
+//                 {
+//                   title: "Bloom and Barter",
+//                   description: "Interactive Full Stack Application",
+//                   image: ,
+//                   deployedLink: ,
+//                   githubLink: ,
+//                 }
+//                 {
+//                   title: ,
+//                   description: ,
+//                   image: ,
+//                   deployedLink: ,
+//                   githubLink: ,
+//                 }
+//                 {
+//                   title: ,
+//                   description: ,
+//                   image: ,
+//                   deployedLink: ,
+//                   githubLink: ,
+//                 }
+//                 {
+//                   title: ,
+//                   description: ,
+//                   image: ,
+//                   deployedLink: ,
+//                   githubLink: ,
+//                 }
+//                 {
+//                   title: ,
+//                   description: ,
+//                   image: ,
+//                   deployedLink: ,
+//                   githubLink: ,
+//                 }
+//                 {
+//                   title: ,
+//                   description: ,
+//                   image: ,
+//                   deployedLink: ,
+//                   githubLink: ,
+//                 }
+//               ]}
+//         </div>
+//         </div>
+//         </div>
+//       </section>
+//   )
+// }
+
+  
+ 

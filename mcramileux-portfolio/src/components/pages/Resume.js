@@ -14,10 +14,10 @@ export default function Resume() {
             <h1 className='resume-title'>Resume</h1>
               <div className='row justify-content-center'>
                 <div className='col-sm-12 text-center'>
-                  <div className='resume-download'>
-                    <a href={resumeDownload} download='Resume'target='_blank' className='resume' rel='noopener noreferrer'>
-                    <button type='button' class='btn btn-info'>Download Resume</button>
-                    </a>
+                    <div className='resume-download'>
+                      <a href={resumeDownload} download='Resume'target='_blank' className='resume' rel='noopener noreferrer'>
+                      <button type='button' class='btn btn-info'>Download Resume</button>
+                      </a>
                   </div>
                 </div>
             <h3 className='frontend-skills'>Front End Skills</h3>

@@ -74,62 +74,81 @@ export default function Contact() {
 
             <hr className='contact-divider'/>
 
-            <form onSubmit={handleSubmit}>
-
-              <div className='form-group'>
-                <label htmlFor='name'>Name:</label>
-                <div className='form-floating mb-3'>
-                <input type='text' className={`form-control ${fullNameError ? 'is-invalid' : ''}`}
-                  id='name'
-                  value={fullName}
-                  onChange={(e) => setFullName(e.target.value)}
-                  />
-                  {fullNameError && (
-                    <div className='nvalid-feedback'>Please enter your name</div>
-                  )}
-                </div>
-              </div>
-
-              <div className='form-group'>
-                <label htmlFor='email'>Email address:</label>
-                <div className='form-floating mb-3'>
-                <input type='email' className={`form-control ${emailError ? 'is-invalid' : ''}`}
-                   id='email'
-                   value={email}
-                   onChange={(e) => setEmail(e.target.value)}
-                   />
-                   {emailError && (
-                      <div className='invalid-feedback'>Please enter a valid email address</div>
+            {!sentMessage && (
+              <form onSubmit={handleSubmit}>
+                <div className="form-group">
+                  <label htmlFor="name">Name:</label>
+                  <div className="form-floating mb-3">
+                    <input
+                      type="text"
+                      className={`form-control ${
+                        fullNameError ? "is-invalid" : ""
+                      }`}
+                      id="name"
+                      value={fullName}
+                      onChange={(e) => setFullName(e.target.value)}
+                    />
+                    {fullNameError && (
+                      <div className="invalid-feedback">
+                        Please enter your name
+                      </div>
                     )}
                   </div>
                 </div>
 
-              <div className='form-group'>
-                <label htmlFor='message'>Message:</label>
-                <div className='form-floating mb-3'></div>
-                <textarea className={`form-control ${messageError ? 'is-invalid' : ''}`}
-                    id='message'
-                    rows='5'
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    ></textarea>
-                    {messageError && (
-                      <div className='invalid-feedback'>Please enter your message</div>
-                        )}
+                <div className="form-group">
+                  <label htmlFor="email">Email address:</label>
+                  <div className="form-floating mb-3">
+                    <input
+                      type="email"
+                      className={`form-control ${
+                        emailError ? "is-invalid" : ""
+                      }`}
+                      id="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                    {emailError && (
+                      <div className="invalid-feedback">
+                        Please enter a valid email address
+                      </div>
+                    )}
+                  </div>
                 </div>
 
-                <button type='submit' className='btn btn-info'>
-                  Submit
-                    </button>
-              </form>
-                     {sentMessage && (
-                       <div className='alert alert-success mt-3' role='alert'>
-                          "Thank you for contacting me! I have received your message and will get back to you as soon as possible."
-                       </div>
-                      )}
+                <div className="form-group">
+                  <label htmlFor="message">Message:</label>
+                  <div className="form-floating mb-3"></div>
+                  <textarea
+                    className={`form-control ${
+                      messageError ? "is-invalid" : ""
+                    }`}
+                    id="message"
+                    rows="5"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                  ></textarea>
+                  {messageError && (
+                    <div className="invalid-feedback">
+                      Please enter your message
                     </div>
+                  )}
                 </div>
+
+                <button type="submit" className="btn btn-info">
+                  Submit
+                </button>
+              </form>
+            )}
+            {sentMessage && (
+              <div className="alert alert-success mt-3" role="alert">
+                "Thank you for contacting me! I have received your message and
+                will get back to you as soon as possible."
+              </div>
+            )}
+              </div>
             </div>
-      </section>
-    );
-  }
+        </div>
+    </section>
+  );
+}
