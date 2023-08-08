@@ -1,12 +1,6 @@
 .container-contact {
   margin-top: 40px;
   padding: 50px 0;
-/* display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align:justify;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-   */
 }
 
 .contact-title {
@@ -21,7 +15,6 @@
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 .form-group {
   margin-bottom: 20px;

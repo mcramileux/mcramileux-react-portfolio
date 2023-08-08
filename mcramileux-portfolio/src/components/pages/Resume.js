@@ -8,10 +8,34 @@ export default function Resume() {
   return (
     <section id='resume'>
       <div className='container-resume text-center'>
-        <div className='row'>
+        <div className='row justify-content-center'>
           <div className='col-sm-12 section-header'>
             <h1 className='resume-title'>Resume</h1>
-            <h4>Technical Skills</h4>
+            
+            <h4 className='frontend-skills'>Front End Skills</h4>
+            <ul className='frontend-list'>
+              <li> HTML </li>
+              <li> CSS </li>
+              <li> JavaScript </li>
+              <li> Bootstrap </li>
+              <li> Handlebars </li>
+              <li> REACT </li>
+            </ul>
+
+            <h4 className='backend-skills'>Backend End Skills</h4>
+            <ul className='backend-list'>
+              <li> Node</li>
+              <li> Express</li>
+              <li> MySQL</li>
+              <li> Mongo</li>
+            </ul>
+
+            <h4 className='deployment'>Others</h4>
+            <ul className='deployment-sites'>
+              <li>Github</li>
+              <li>Heroku</li>
+            </ul>
+
           </div>
         </div>
 

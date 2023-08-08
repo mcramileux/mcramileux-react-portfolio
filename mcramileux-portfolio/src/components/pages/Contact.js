@@ -75,7 +75,7 @@ export default function Contact() {
     setMessage('');
     setEmail('');
     setErrorMessage('');
-    setMessageSent(true);
+    setMessageSent('');
 };
 
   return (
@@ -101,8 +101,8 @@ export default function Contact() {
 
                     <div className="form-group">
                       <label htmlFor="name">Name:</label>
-                        <div class="form-floating mb-3">
-                          <input type="text" id="name" value={fullName}
+                        <div className="form-floating mb-3">
+                          <input type='text' id='name' name='name' value={fullName}
                             onChange={handleInputChange} />
                         </div>
                     </div>
@@ -110,7 +110,7 @@ export default function Contact() {
                     <div className="form-group">
                       <label htmlFor="email">Email Address:</label>
                         <div class="form-floating mb-3">
-                          <input type="email" id="email" value={email}
+                          <input type="email" id="email" name='email' value={email}
                             onChange={handleInputChange} />
                         </div>
                     </div>
@@ -118,7 +118,7 @@ export default function Contact() {
                     <div className="form-group">
                       <label htmlFor="message">Message:</label>
                         <div class="form-floating mb-3">
-                          <textarea id="message" rows="5" value={message}
+                          <textarea id="message" name='message' rows="5" value={message}
                             onChange={handleInputChange}>
                           </textarea>
                         

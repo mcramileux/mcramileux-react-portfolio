@@ -1,1 +1,14 @@
-/* Resume.css */
+.container-resume {
+    padding: 40px 0;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.resume-title {
+    text-align: center;
+    margin-top: 0.4rem;
+    margin-bottom: 3rem;
+    font-size: 50px;
+ }
+  
