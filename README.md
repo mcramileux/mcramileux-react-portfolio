@@ -89,7 +89,7 @@ This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 - [footer #1](https://github.com/jjocelynn/React-Portfolio) inspiration
 - [footer #2](https://github.com/robinsonfdossantos/Portfolio-REACT)inspiration
 - [fontawesome](https://fontawesome.com/docs/web/use-with/react/add-icons) adding react footer icons
--  
+- [contact form template](https://mdbootstrap.com/docs/b4/jquery/forms/contact/)
 
 ## Acknowledgements and Credits
 - Jacob Carver - weekly boot camp tutor
