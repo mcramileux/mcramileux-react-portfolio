@@ -32,7 +32,7 @@ export default function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='d-flex flex-column' style={{ minHeight: '100vh' }}>
+    <div className='d-flex flex-column'>
       <div className='flex-grow-1'>
           {/* We are passing the currentPage from state and the function to update it */}
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
