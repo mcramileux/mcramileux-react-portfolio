@@ -58,7 +58,7 @@ const projects = [
 
   return (
     <section className='container my-5'>
-      <div style={{height:'1950px'}} className='container-portfolio text-center'>
+      <div className='container-portfolio text-center'>
         <div className='row justify-content-center'>
           <div className="col-md-10">
             <h1 className='portfolio-title'>Portfolio</h1>

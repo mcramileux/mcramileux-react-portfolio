@@ -4,7 +4,7 @@ import authorAvatar from '../../assets/images/pfp.jpeg';
 
 export default function About() {
   return (
-    <section className='.bg-light.bg-gradient text-dark py-8'>
+    <section className='container my-5'>
       <div className='container-about text-center'>
         <div className='row gx-4 gx-lg-5 justify-content-center'>
           <div className='col-md-10'>
