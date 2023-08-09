@@ -17,11 +17,6 @@
     justify-content: center;
   }
   
-/* .col-md-10 {
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-  }
-   */
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -43,7 +38,6 @@ p {
     margin-left: 40px;
     margin-right: 40px;
     text-justify: none;
-    /* font-size: px; */
   }
  @media (min-width: 768px) {
     .flex-container {
