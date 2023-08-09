@@ -41,7 +41,7 @@ export default function Contact() {
       return;
     }
 
-    const validateEmail = /^[\w\.-]+@[\w\.-]+\.\w+$/;
+    const validateEmail = /^[\w.-]+@[\w.-]+\.\w+$/;
     if (!validateEmail.test(email)) {
       setEmailError(true);
       return;
@@ -52,6 +52,11 @@ export default function Contact() {
     }
 
     console.log(`Name: ${fullName}, Email: ${email}, Message: ${message}`);
+    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    setFullName('');
+    setEmail('');
+    setMessage('');
+    setMessageError('');
     setSentMessage(true);
 };
 
@@ -59,10 +64,11 @@ export default function Contact() {
     <section id='contact'>
       <div className='container-contact px-4 py-4 px-lg-5 py-lg-5 bg-white rounded'>
         <div className='row gx-4 gx-lg-5 justify-content-center mx-auto'>
-          <div className="col-lg-8 col-xl-6 text-center"> 
+          <div className='col-lg-8 col-xl-6 text-center'> 
           <h1 className='contact-title'>Contact Me</h1>
-            <p className='text-muted mb-5'> Do you want to collaborate with me?. 
-              Please do not hesitate to contact me directly. 
+            <p className='text-muted mb-5'> 
+              Do you want to collaborate with me?
+              Please do not hesitate to contact me directly.
               I will come back to you within a matter of hours to help you.
             </p>
                 
@@ -76,72 +82,72 @@ export default function Contact() {
 
             {!sentMessage && (
               <form onSubmit={handleSubmit}>
-                <div className="form-group">
-                  <label htmlFor="name">Name:</label>
-                  <div className="form-floating mb-3">
+                <div className='form-group'>
+                  <label htmlFor='name'>Name:</label>
+                  <div className='form-floating mb-3'>
                     <input
-                      type="text"
+                      type='text'
                       className={`form-control ${
-                        fullNameError ? "is-invalid" : ""
+                        fullNameError ? 'is-invalid' :''
                       }`}
-                      id="name"
+                      id='name'
                       value={fullName}
                       onChange={(e) => setFullName(e.target.value)}
                     />
                     {fullNameError && (
-                      <div className="invalid-feedback">
+                      <div className='invalid-feedback'>
                         Please enter your name
                       </div>
                     )}
                   </div>
                 </div>
 
-                <div className="form-group">
-                  <label htmlFor="email">Email address:</label>
-                  <div className="form-floating mb-3">
+                <div className='form-group'>
+                  <label htmlFor='email'>Email address:</label>
+                  <div className='form-floating mb-3'>
                     <input
-                      type="email"
+                      type='email'
                       className={`form-control ${
-                        emailError ? "is-invalid" : ""
+                        emailError ? 'is-invalid' : ''
                       }`}
-                      id="email"
+                      id='email'
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
                     {emailError && (
-                      <div className="invalid-feedback">
+                      <div className='invalid-feedback'>
                         Please enter a valid email address
                       </div>
                     )}
                   </div>
                 </div>
 
-                <div className="form-group">
-                  <label htmlFor="message">Message:</label>
-                  <div className="form-floating mb-3"></div>
-                  <textarea
+                <div className='form-group'>
+                  <label htmlFor='message'>Message:</label>
+                  <div className='form-floating mb-3'></div>
+                  <textarea 
                     className={`form-control ${
-                      messageError ? "is-invalid" : ""
+                      messageError ? 'is-invalid' : ""
                     }`}
-                    id="message"
-                    rows="5"
+                    id='message'
+                    rows='5'
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                   {messageError && (
-                    <div className="invalid-feedback">
+                    <div className='invalid-feedback'>
                       Please enter your message
                     </div>
                   )}
                 </div>
 
-                <button type="submit" className="btn btn-info">
+                <button type='submit' className='btn btn-info'>
                   Submit
                 </button>
               </form>
             )}
             {sentMessage && (
-              <div className="alert alert-success mt-3" role="alert">
+              <div className='alert alert-success mt-3' role='alert'>
                 "Thank you for contacting me! I have received your message and
                 will get back to you as soon as possible."
               </div>

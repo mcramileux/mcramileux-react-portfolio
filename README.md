@@ -90,8 +90,8 @@ This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 - [footer #2](https://github.com/robinsonfdossantos/Portfolio-REACT)inspiration
 - [fontawesome](https://fontawesome.com/docs/web/use-with/react/add-icons) adding react footer icons
 - [portfolio #1](https://github.com/ThomasCalle/7homas7he7ank-React-Portfolio) inspiration
-- [portfolio #2](https://github.com/devarsh2395/Devarsh-Patel-React-Portfolio)inspiration
-- [contact me template](https://github.com/jnaoroji/React_portfolio_JN)inpiration
+- [portfolio #2](https://github.com/devarsh2395/Devarsh-Patel-React-Portfolio) inspiration
+- [contact me template](https://github.com/jnaoroji/React_portfolio_JN) inspiration
 
 ## Acknowledgements and Credits
 - Jacob Carver - weekly boot camp tutor
