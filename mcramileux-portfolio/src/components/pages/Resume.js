@@ -1,13 +1,10 @@
-// WHEN I am presented with the Resume section
-// THEN I see a link to a downloadable resume and a list of the developer’s proficiencies ---DONE
-
 import React from 'react';
 import resumeDownload from '../../assets/documents/kramilo-cv.pdf';
 import './Resume.css';
 
 export default function Resume() {
   return (
-    <section id='resume'>
+    <section style={{height:'920px'}} id='resume'>
       <div className='container-resume px-4 py-4 px-lg-5 py-lg-5 bg-white rounded'>
         <div className='row justify-content-center'>
           <div className='col-sm-12 section-header'>

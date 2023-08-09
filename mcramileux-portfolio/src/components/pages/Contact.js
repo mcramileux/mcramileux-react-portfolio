@@ -1,20 +1,3 @@
-//TO EDIT presented with the Contact section
-//a contact form with fields for a name, an email address, and a message ---DONE
-
-// WHEN I am presented with the Contact section
-// THEN I see a contact form with fields for a name, an email address, and a message ---DONE
-
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required ---DONE
-
-// WHEN I move my cursor out of one of the form fields without entering text ---DONE
-// THEN I receive a notification that this field is required
-
-// WHEN I enter text into the email address field ---DONE
-// THEN I receive a notification if I have entered an invalid email address
-
-// In the meantime, consider including your email address and phone number on the Contact page. --DONE
-
 import React, { useState} from 'react';
 import './Contact.css';
 
@@ -61,7 +44,7 @@ export default function Contact() {
 };
 
   return (
-    <section id='contact'>
+    <section style={{height:'1050px'}} id='contact'>
       <div className='container-contact px-4 py-4 px-lg-5 py-lg-5 bg-white rounded'>
         <div className='row gx-4 gx-lg-5 justify-content-center mx-auto'>
           <div className='col-lg-8 col-xl-6 text-center'> 

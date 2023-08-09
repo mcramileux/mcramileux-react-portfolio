@@ -43,6 +43,7 @@ p {
     margin-left: 40px;
     margin-right: 40px;
     text-justify: none;
+    font-size: 20px;
   }
 
  @media (min-width: 768px) {

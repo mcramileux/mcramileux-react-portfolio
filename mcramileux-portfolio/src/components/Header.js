@@ -1,8 +1,3 @@
-//TO EDIT PORTFOLIO CONTAINER
-//presented with a page containing a header, a section for content, and a footer---Done
-
-//A single Header component that appears on multiple pages --done
-
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import About from './pages/About';

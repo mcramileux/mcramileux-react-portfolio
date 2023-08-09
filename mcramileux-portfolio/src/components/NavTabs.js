@@ -1,6 +1,3 @@
-// WHEN I click on a navigation title
-// THEN I am presented with the corresponding section below the navigation 
-// without the page reloading and that title is highlighted
 import React from 'react';
 import './NavTabs.css';
 

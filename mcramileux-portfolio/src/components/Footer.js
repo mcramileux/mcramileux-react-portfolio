@@ -1,9 +1,3 @@
-// WHEN I view the footer
-// THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, ---done
-// and their profile on a third platform (Stack Overflow, Twitter)---DONE
-
-//A single Footer component that appears on multiple pages---done
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons';

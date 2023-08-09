@@ -1,17 +1,3 @@
-// TO EDIT FOR PORTFOLIO SECTION
-// titled images of six of the developer’s applications ===Done
-// with links to both the deployed applications and the corresponding GitHub repositories===Done
-// href to the images==Done
-
-//A single Project component that will be used multiple times in the Portfolio section
-
-// Projects
-// For each project that is featured in your portfolio, include the following:
-// An image of the deployed application (either a short animated GIF or screenshot)--done
-// The title of the project--done
-// A link to the deployed application --done
-// A link to the corresponding GitHub repository--done
-
 import React from 'react';
 import Project from './Project.js';
 import './Portfolio.css';
@@ -72,7 +58,7 @@ const projects = [
 
   return (
     <section className='container my-5'>
-      <div className='container-portfolio text-center'>
+      <div style={{height:'1950px'}} className='container-portfolio text-center'>
         <div className='row justify-content-center'>
           <div className="col-md-10">
             <h1 className='portfolio-title'>Portfolio</h1>
