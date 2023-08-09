@@ -4,15 +4,15 @@ McRamileux's React Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-- To edit
+This project is a React-based Single Page Application that serves as a dynamic representation of my accomplishments and challenges during the bootcamp journey. The React portfolio features key components including my updated resume, convenient contact information, and a collection of projects undertaken during the bootcamp.
 
 ## Table of Contents
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
-- [Technologies Used --- TO EDIT](#technologies-used-----to-edit)
-- [Installation --- TO EDIT](#installation-----to-edit)
-- [Usage --- TO EDIT](#usage-----to-edit)
-- [Screenshots --- TO EDIT](#screenshots-----to-edit)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Links --- TO EDIT](#links-----to-edit)
 - [Contributions](#contributions)
 - [License](#license)
@@ -21,20 +21,20 @@ McRamileux's React Portfolio
 - [Acknowledgements and Credits](#acknowledgements-and-credits)
 - [Author](#author)
 
-## Technologies Used --- TO EDIT
+## Technologies Used
+- React
+- Github pages
 - Node.js
-- MongoDB
-- Insomnia
-- Express.js
-- Mongoose packages
-- JSON
+- Bootstrap
+- Font Awesome
+- Web Vitals
 
-## Installation --- TO EDIT
+## Installation
 - Navigate to this [repository](https://github.com/mcramileux/mcramileux-react-portfolio)
 - Open your terminal on your local machine and clone the repository.
 - Create a react portfolio. Replace my-portfolio with your desired project name.
   ```md
-  npx create-react-app my-portfolio
+  npx create-react-app <my-portfolio>
   ```
 - Install fontawesome react icon styles
   ```md
@@ -54,7 +54,7 @@ McRamileux's React Portfolio
   npm start
   ```
 
-## Usage --- TO EDIT
+## Usage
 - For folder structure overview: Inside the newly created my-portfolio folder, you will find various files and folders. The main ones you'll be working with are:
   ```md
   - src: This is where your React code lives.
@@ -65,13 +65,15 @@ McRamileux's React Portfolio
   Open the public/index.html file and customize the <title> and other metadata according to your portfolio's name and description.
   ```
 
+## Screenshots
+- How to start
 
-## Screenshots --- TO EDIT
+    ![how-to-start](https://github.com/mcramileux/mcramileux-react-portfolio/assets/122607160/7cb18c4d-78bf-4afc-923b-7970f161bb14) 
 
 
 ## Links --- TO EDIT
 - Github Repository: https://github.com/mcramileux/mcramileux-react-portfolio
-- Github Deployment:
+- Github Pages Deployment:
 
 ## Contributions
 * Contributions to this project won't be accepted as this is the reflection of the author's work hence the following questions and answers. Furthermore, forking or creating a pull request is acceptable.
