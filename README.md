@@ -72,7 +72,10 @@ This project is a React-based Single Page Application that serves as a dynamic r
 
     ![how-to-start](https://github.com/mcramileux/mcramileux-react-portfolio/assets/122607160/7cb18c4d-78bf-4afc-923b-7970f161bb14) 
 
-
+- About Me page
+  
+    <img width="2011" alt="about" src="https://github.com/mcramileux/mcramileux-final-project/assets/122607160/2776d37a-3833-4855-a343-3b05048adff9">
+    
 - Contact page
   
     <img width="1076" alt="contact" src="https://github.com/mcramileux/mcramileux-react-portfolio/assets/122607160/96517ecf-fcd5-4966-8195-999ac48b4a19">

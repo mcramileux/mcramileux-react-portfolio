@@ -5,7 +5,7 @@ import './Footer.css';
 
 export default function Footer() {
   return (
-    <footer className='bg-dark text-info py-3'>
+    <footer className='bg-dark text-info'>
       <div className='container-footer text-center'>
         <div className='row'>
           <div className='col-12'>
