@@ -4,10 +4,10 @@
 
 //A single Footer component that appears on multiple pages---done
 
-import React from "react";
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons';
-import "./Footer.css";
+import './Footer.css';
 
 export default function Footer() {
   return (

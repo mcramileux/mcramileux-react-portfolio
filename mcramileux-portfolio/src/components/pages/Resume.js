@@ -16,7 +16,7 @@ export default function Resume() {
                 <div className='col-sm-12 text-center'>
                     <div className='resume-download'>
                       <a href={resumeDownload} download='Resume'target='_blank' className='resume' rel='noopener noreferrer'>
-                      <button type='button' class='btn btn-info' style={{ marginBottom: '30px' }}>Download Resume</button>
+                      <button type='button' class='btn btn-info' style={{ fontSize: '25px', marginBottom: '30px' }}>Download Resume</button>
                       </a>
                   </div>
                 </div>

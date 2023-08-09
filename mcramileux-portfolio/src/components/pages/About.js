@@ -9,9 +9,9 @@ import authorAvatar from '../../assets/images/pfp.jpeg';
 
 export default function About() {
   return (
-    <header className='bg-light text-dark py-3'>
+    <section className='.bg-light.bg-gradient text-dark py-8'>
       <div className='container-about text-center'>
-        <div className='row justify-content-center'>
+        <div className='row gx-4 gx-lg-5 justify-content-center'>
           <div className='col-md-10'>
             <h1 className='about-title'>About Me</h1>
             <div className='flex-container'>
@@ -27,6 +27,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </header>
+    </section>
   );
 }

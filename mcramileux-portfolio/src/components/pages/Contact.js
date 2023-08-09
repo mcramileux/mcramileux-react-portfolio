@@ -141,7 +141,7 @@ export default function Contact() {
                   )}
                 </div>
 
-                <button type='submit' className='btn btn-info' style={{ marginTop: '10px' }}>
+                <button type='submit' className='btn btn-info' style={{fontSize: '20px', marginTop: '10px' }}>
                   Submit
                 </button>
               </form>

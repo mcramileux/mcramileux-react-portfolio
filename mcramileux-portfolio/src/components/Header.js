@@ -9,7 +9,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -32,15 +32,13 @@ export default function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="d-flex flex-column" style={{ minHeight: '100vh' }}>
-      <div className="flex-grow-1">
-        <main>
+    <div className='d-flex flex-column' style={{ minHeight: '100vh' }}>
+      <div className='flex-grow-1'>
           {/* We are passing the currentPage from state and the function to update it */}
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
           {/* Here we are calling the renderPage method which will return a component  */}
             {renderPage()}
-        </main>
-          <Footer className="fixed-bottom" />
+          {/* <Footer className='fixed-bottom' /> */}
       </div>
     </div>
   );

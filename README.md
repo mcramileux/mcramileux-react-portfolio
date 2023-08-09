@@ -1,5 +1,5 @@
 McRamileux's React Portfolio
-20th Challenge: React - React Portolio
+20th Challenge: React - React Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
