@@ -14,7 +14,7 @@
 
 import React from 'react';
 import Project from './Project.js';
-// import './Portfolio.css';
+import './Portfolio.css';
 
 import BloomAndBarter from '../../assets/images/BloomAndBarter.png';
 import MvcTechBlog from '../../assets/images/MvcTechBlog.png';
@@ -40,7 +40,7 @@ const projects = [
       github: "https://github.com/mcramileux/mcramileux-tech-blog",
   },
   {
-      title: "Mcramileux First Portfolio",
+      title: "Mcramileux's First Portfolio",
       description: "Advanced CSS: Portfolio",
       image: FirstPortfolio,
       deployedSite: "https://mcramileux.github.io/Kristines-Portfolio/",
@@ -70,16 +70,23 @@ const projects = [
 ]
 
   return (
-    <section className='container-portfolio my-5'>
-      <h1 className='portfolio-title'>Portfolio</h1>
-        <div className='container-portfolio text-center'></div>
-          <div className='row'>
-            {projects.map((project, index) => (
-              <Project project = {project} key= {'project'+ index}/>
-            ))}
+    <section className='container my-5'>
+      <div className='container-portfolio text-center'>
+        <div className="row justify-content-center">
+          <div className="col-md-10">
+            <h1 className='portfolio-title'>Portfolio</h1>
+            <div className="flex-container">
+              <div className='row'>
+                {projects.map((project, index) => (
+                <Project project = {project} key= {'project'+ index}/>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-    );
-  };
+      </div>
+    </section>
+  );
+};
 
 export default Portfolio;

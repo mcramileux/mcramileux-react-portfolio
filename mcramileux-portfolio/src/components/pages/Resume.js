@@ -21,7 +21,7 @@ export default function Resume() {
                   </div>
                 </div>
             <h3 className='frontend-skills'>Front End Skills</h3>
-            <ul className='frontend-list'>
+            <ul className='frontend-list no-bullet-list'>
               <li> HTML </li>
               <li> CSS </li>
               <li> JavaScript </li>
@@ -31,7 +31,7 @@ export default function Resume() {
             </ul>
 
             <h3 className='backend-skills'>Backend End Skills</h3>
-            <ul className='backend-list'>
+            <ul className='backend-list no-bullet-list'>
               <li> Node</li>
               <li> Express</li>
               <li> MySQL</li>
@@ -39,7 +39,7 @@ export default function Resume() {
             </ul>
 
             <h3 className='deployment'>Others</h3>
-            <ul className='deployment-sites'>
+            <ul className='deployment-sites no-bullet-list'>
               <li>Github</li>
               <li>Heroku</li>
             </ul>
