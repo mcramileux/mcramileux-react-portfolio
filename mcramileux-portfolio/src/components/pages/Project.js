@@ -18,7 +18,7 @@ function Project({project}) {
           </div>
           <div>
             <a href={deployedSite} target="_blank" rel="noreferrer">
-              Deployed Link
+              Deployed Site
             </a>
           </div>
         </div>
