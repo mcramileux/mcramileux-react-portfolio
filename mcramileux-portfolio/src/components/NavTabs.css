@@ -9,6 +9,7 @@
   align-items: center;
   font-size: 50px;
   justify-content: flex-start; 
+  font-weight:800;
 }
 
 .navbar-nav {
@@ -24,7 +25,6 @@
 }
 
 .nav-link.active {
-  font-weight: bolder;
   font-size: 30px;
   text-decoration: underline;
 }
