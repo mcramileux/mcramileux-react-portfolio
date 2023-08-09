@@ -9,13 +9,13 @@ import authorAvatar from '../../assets/images/pfp.jpeg';
 
 export default function About() {
   return (
-    <header className="bg-light text-dark py-3">
-      <div className="container-about text-center">
-        <div className="row justify-content-center">
-          <div className="col-md-10">
+    <header className='bg-light text-dark py-3'>
+      <div className='container-about text-center'>
+        <div className='row justify-content-center'>
+          <div className='col-md-10'>
             <h1 className='about-title'>About Me</h1>
-            <div className="flex-container">
-              <img src={authorAvatar} alt="Author Avatar" className="avatar" />
+            <div className='flex-container'>
+              <img src={authorAvatar} alt='Author Avatar' className='avatar' />
               <p>
                 I am Kristine, an aspiring web developer currently engaged in online studies at the University of Adelaide. As the culmination of my studies approaches at the end of this month, I am eager to expand my skill set and embrace new opportunities, with coding being a central focus of my learning journey.
 
