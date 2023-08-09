@@ -1,5 +1,5 @@
-McRamileux's React Portfolio
-20th Challenge: React - React Portfolio
+# McRamileux's React Portfolio
+## 20th Challenge: React - React Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -7,19 +7,21 @@ McRamileux's React Portfolio
 This project is a React-based Single Page Application that serves as a dynamic representation of my accomplishments and challenges during the bootcamp journey. The React portfolio features key components including my updated resume, convenient contact information, and a collection of projects undertaken during the bootcamp.
 
 ## Table of Contents
-- [Description](#description)
-- [Table of Contents](#table-of-contents)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Links --- TO EDIT](#links-----to-edit)
-- [Contributions](#contributions)
-- [License](#license)
-- [Questions](#questions)
-- [Reference](#reference)
-- [Acknowledgements and Credits](#acknowledgements-and-credits)
-- [Author](#author)
+- [McRamileux's React Portfolio](#mcramileuxs-react-portfolio)
+  - [20th Challenge: React - React Portfolio](#20th-challenge-react---react-portfolio)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Technologies Used](#technologies-used)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
+  - [Contributions](#contributions)
+  - [License](#license)
+  - [Questions](#questions)
+  - [Reference](#reference)
+  - [Acknowledgements and Credits](#acknowledgements-and-credits)
+  - [Author](#author)
 
 ## Technologies Used
 - React
@@ -71,9 +73,19 @@ This project is a React-based Single Page Application that serves as a dynamic r
     ![how-to-start](https://github.com/mcramileux/mcramileux-react-portfolio/assets/122607160/7cb18c4d-78bf-4afc-923b-7970f161bb14) 
 
 
-## Links --- TO EDIT
+- Contact page
+  
+    <img width="1076" alt="contact" src="https://github.com/mcramileux/mcramileux-react-portfolio/assets/122607160/96517ecf-fcd5-4966-8195-999ac48b4a19">
+
+
+- Resume page
+
+    <img width="1089" alt="resume-page" src="https://github.com/mcramileux/mcramileux-react-portfolio/assets/122607160/532ef6e4-0ede-45de-84b8-5bc904db55c9">
+
+
+## Links
 - Github Repository: https://github.com/mcramileux/mcramileux-react-portfolio
-- Github Pages Deployment:
+- Github Pages Deployment: https://mcramileux.github.io/mcramileux-react-portfolio/
 
 ## Contributions
 * Contributions to this project won't be accepted as this is the reflection of the author's work hence the following questions and answers. Furthermore, forking or creating a pull request is acceptable.
