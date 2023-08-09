@@ -7,7 +7,7 @@ export default function About() {
     <section className='container my-5'>
       <div className='container-about text-center'>
         <div className='row gx-4 gx-lg-5 justify-content-center'>
-          <div className='col-md-10'>
+          {/* <div className='col-md-10'> */}
             <h1 className='about-title'>About Me</h1>
             <div className='flex-container'>
               <img src={authorAvatar} alt='Author Avatar' className='avatar' />
@@ -19,7 +19,7 @@ export default function About() {
                 Throughout my coding bootcamp experience, I have diligently undertaken a range of projects, which I am pleased to present in my portfolio. I invite you to explore these endeavors, and should you have any inquiries or wish to discuss my work further, I am readily available for communication.
               </p>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>
