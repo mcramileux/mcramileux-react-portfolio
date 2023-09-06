@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mcramileux-react-portfolio/static/css/main.c45528ce.css",
+    "main.js": "/mcramileux-react-portfolio/static/js/main.5aae062e.js",
+    "static/media/MvcTechBlog.png": "/mcramileux-react-portfolio/static/media/MvcTechBlog.9216e2f18bb259430eed.png",
+    "static/media/BloomAndBarter.png": "/mcramileux-react-portfolio/static/media/BloomAndBarter.e8ed0004bd221a911d2c.png",
+    "static/media/WeatherDashboard.png": "/mcramileux-react-portfolio/static/media/WeatherDashboard.3340c54183a3583d7ac5.png",
+    "static/media/kramilo-cv.pdf": "/mcramileux-react-portfolio/static/media/kramilo-cv.ec1df2af33a955cc5a1b.pdf",
+    "static/media/DailyScheduler.png": "/mcramileux-react-portfolio/static/media/DailyScheduler.edb906bdb1b76d41fedb.png",
+    "static/media/MusicSphere.png": "/mcramileux-react-portfolio/static/media/MusicSphere.118f5cdb29bc43a2a575.png",
+    "static/media/pfp.jpeg": "/mcramileux-react-portfolio/static/media/pfp.42b26734c266fb86ff4b.jpeg",
+    "static/media/NoteTaker.png": "/mcramileux-react-portfolio/static/media/NoteTaker.0d6c64389474fda0cc5a.png",
+    "index.html": "/mcramileux-react-portfolio/index.html",
+    "main.c45528ce.css.map": "/mcramileux-react-portfolio/static/css/main.c45528ce.css.map",
+    "main.5aae062e.js.map": "/mcramileux-react-portfolio/static/js/main.5aae062e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c45528ce.css",
+    "static/js/main.5aae062e.js"
+  ]
+}
