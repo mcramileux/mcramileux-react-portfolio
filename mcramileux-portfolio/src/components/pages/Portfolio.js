@@ -3,15 +3,22 @@ import Project from './Project.js';
 import './Portfolio.css';
 
 // Import the images to the projects
+import MusicSphere from '../../assets/images/MusicSphere.png';
 import BloomAndBarter from '../../assets/images/BloomAndBarter.png';
 import MvcTechBlog from '../../assets/images/MvcTechBlog.png';
-import FirstPortfolio from '../../assets/images/FirstPortfolio.png';
 import NoteTaker from '../../assets/images/NoteTaker.png';
 import DailyScheduler from '../../assets/images/DailyScheduler.png';
 import WeatherDashboard from '../../assets/images/WeatherDashboard.png';
 
 const Portfolio = () => {
 const projects = [
+  {
+    title: 'Mcramileux React Portfolio',
+    description: 'Advanced CSS: Portfolio',
+    image: MusicSphere,
+    deployedSite: 'https://mcramileux.github.io/mcramileux-react-portfolio/',
+    github: 'https://github.com/mcramileux/mcramileux-react-portfolio',
+  },
   {
       title: 'Bloom and Barter',
       description: 'Interactive Full Stack Application',
@@ -25,13 +32,6 @@ const projects = [
       image: MvcTechBlog,
       deployedSite: 'https://still-headland-43283-de293bb87f62.herokuapp.com/',
       github: 'https://github.com/mcramileux/mcramileux-tech-blog',
-  },
-  {
-      title: 'Mcramileux First Portfolio',
-      description: 'Advanced CSS: Portfolio',
-      image: FirstPortfolio,
-      deployedSite: 'https://mcramileux.github.io/Kristines-Portfolio/',
-      github: 'https://github.com/mcramileux/Kristines-Portfolio',
   },
   {
       title: 'Note Taker',
